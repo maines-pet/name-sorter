@@ -11,9 +11,9 @@ With the command line
 `git clone https://github.com/maines-pet/name-sorter.git`
 2. Navigate to the folder by  
 `cd name-sorter`
-3. Build the project by
+3. Build the project by  
 `dotnet build --configuration Release`
-4. `cd` to .\NameSorter\bin\Release or with VS Code, right on NameSorter folder then `Open in Integrated Terminal`
+4. `cd` to .\NameSorter\bin\Release or with VS Code, right-click on NameSorter\bin\Release folder then `Open in Integrated Terminal`
 5. Run the console application by  
 
 
@@ -22,3 +22,12 @@ With the command line
 or  
 
 `.\name-sorter [input-file-path] [output-file-path]`
+
+## Assessment Criteria
+- [x] The solution should be available for review on github.
+- [x] The names should be sorted correctly.
+- [x] It should print the sorted list of names to screen.
+- [x] It should write/overwrite the sorted list of names to a file called sorted-names-list.txt.
+- [x] Unit tests should exist.
+- [x] Minimal, practical documentation should exist.
+- [x] Create a build pipeline like Travis or AppVeyor that execute build and test steps.
