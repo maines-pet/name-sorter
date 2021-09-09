@@ -1,4 +1,4 @@
-# name-sorter
+# name-sorter [![Build Status](https://app.travis-ci.com/maines-pet/name-sorter.svg?branch=master)](https://app.travis-ci.com/maines-pet/name-sorter)
 Simple name sorting console application written in C# .Net Core
 ---
 ## Pre-requisite
